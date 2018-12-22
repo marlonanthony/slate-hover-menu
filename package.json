@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-emotion": "^9.1.2",
+    "create-emotion-styled": "^9.1.2",
+    "emotion": "9.2.12",
+    "immutable": "^4.0.0-rc.12",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.0"
+    "react-emotion": "^9.2.4",
+    "react-scripts": "2.1.0",
+    "slate": "^0.43.0",
+    "slate-react": "^0.20.2"
+  },
+  "peerDependencies": {
+    "emotion": "^9.2.12"
   },
   "scripts": {
     "start": "react-scripts start",
